@@ -1,0 +1,15 @@
+{
+    "name": "heinssen-mlp-images-index",
+    "preview_urls": false,
+    "main": "src/index.js",
+    "compatibility_date": "2025-11-16",
+    "vars": {
+        "TAR_FILE_URL": "https://archive.org/download/heinessen-mlp-images/heinessen-mlp-images.tar",
+        "INDEX_FILE_URL": "https://github.com/firlin123/heinessen-mlp-images-index/releases/download/v1.0.0/output.idx",
+        "INDEX_FILE_SIZE": "10172320",
+        "CACHE_KEY_PREFIX": "/cf-heinessen-mlp-images/"
+    },
+    "observability": {
+        "enabled": true
+    }
+}

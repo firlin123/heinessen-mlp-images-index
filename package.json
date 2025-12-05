@@ -1,0 +1,16 @@
+{
+  "name": "heinessen-mlp-images-index",
+  "version": "1.0.0",
+  "main": "builder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251205.0",
+    "wrangler": "^4.53.0"
+  }
+}

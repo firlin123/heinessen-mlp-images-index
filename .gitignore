@@ -1,0 +1,46 @@
+# Node and package management
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Wrangler build artifacts
+dist/
+.wrangler/
+.wrangler/state/
+.wrangler/tmp/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+.secrets/
+.secret*
+*.key
+*.pem
+*.p12
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Optional: ignore generated temporary files
+tmp/
+.cache/
+coverage/
+
+# Ignore TypeScript build outputs if using TS
+build/
+out/
+*.tsbuildinfo
+
+output.idx
+tar_list.txt
