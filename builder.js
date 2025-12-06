@@ -168,7 +168,7 @@ function parseArgs(argv) {
         }
     }
     if (!tarListPath || !outputPath) {
-        console.error('Usage: node builder.js [--lax/-l] <tar_list.txt> <output.idx>');
+        console.error('Usage: node builder.js [--lax/-l] <tar_list.txt> <static_assets/heinessen-mlp-images-index.bin>');
         process.exit(1);
     }
     return { tarListPath, outputPath, lax };

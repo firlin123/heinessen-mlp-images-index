@@ -42,5 +42,5 @@ build/
 out/
 *.tsbuildinfo
 
-output.idx
 tar_list.txt
+static_assets/heinessen-mlp-images-index.bin

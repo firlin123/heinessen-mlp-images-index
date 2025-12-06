@@ -1,13 +1,19 @@
 {
+    "$schema": "./node_modules/wrangler/config-schema.json",
     "name": "heinssen-mlp-images-index",
     "preview_urls": false,
-    "main": "src/index.js",
+    "main": "worker.js",
     "compatibility_date": "2025-11-16",
     "vars": {
         "TAR_FILE_URL": "https://archive.org/download/heinessen-mlp-images/heinessen-mlp-images.tar",
-        "INDEX_FILE_URL": "https://github.com/firlin123/heinessen-mlp-images-index/releases/download/v1.0.0/output.idx",
-        "INDEX_FILE_SIZE": "10172320",
-        "CACHE_KEY_PREFIX": "/cf-heinessen-mlp-images/"
+        "INDEX_PATH": "/heinessen-mlp-images-index.bin",
+        "INDEX_FILE_SIZE": "10172320"
+    },
+    "assets": {
+        "binding": "INDEX",
+        "not_found_handling": "404-page",
+        "directory": "./static_assets",
+        "run_worker_first": ["/image/*"]
     },
     "observability": {
         "enabled": true
