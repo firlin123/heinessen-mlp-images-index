@@ -1,6 +1,6 @@
 {
     "$schema": "./node_modules/wrangler/config-schema.json",
-    "name": "heinssen-mlp-images-index",
+    "name": "heinessen-mlp-images-index",
     "preview_urls": false,
     "main": "worker.js",
     "compatibility_date": "2025-11-16",
